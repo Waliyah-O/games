@@ -1,0 +1,55 @@
+body {
+  /*Box model stuff*/
+  background: black;
+}
+
+#container {
+  position: absolute;
+  width: 600px;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  /* border: 3px solid white; */
+  font-size: 25px;
+}
+
+#canvas1 {
+  position: relative;
+  width: 600px;
+  height: 500px;
+}
+
+#slider {
+  width: 100%;
+  cursor: pointer;
+  /* -webkit-appearance: none;
+  margin-right: 15px;
+  height: 7px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  background-image: linear-gradient(#ff4500, #ff4500);
+  background-size: 70%, 100%; */
+}
+
+/* #slider::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ff4500;
+  cursor: ew-resize;
+  box-shadow: 0 0 2px 0 #555;
+  transition: .3s ease-in-out;
+} */
+
+/* #slider::-webkit-slider-runnable-track{
+  -webkit-appearance: none;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+
+} */
+
+p {
+  color: white;
+}
